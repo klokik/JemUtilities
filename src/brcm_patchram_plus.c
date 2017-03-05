@@ -776,7 +776,7 @@ proc_run_postaction()
 {
 	printf("Running post action\n");
 	sleep(10);
-	system("hciconfig hci0 up");
+	system("btmgmt power on");
 	printf("Postaction done\n");
 }
 
